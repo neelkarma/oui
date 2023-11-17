@@ -1,0 +1,31 @@
+* {
+  font-family: "IBM Plex Mono", monospace;
+}
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  background-color: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  padding: 5px;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: calc(100vh - 10px);
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+}
